@@ -14,7 +14,7 @@ Una aplicación de chat en tiempo real desarrollada con React, Chakra UI, TypeSc
 
 1. Inicia la aplicación en modo de desarrollo:
 
-2. Abre tu navegador web y visita `http://localhost:3000` para ver la aplicación en funcionamiento.
+2. Abre tu navegador web y visita `http://localhost:5173` para ver la aplicación en funcionamiento.
 
 ## Scripts
 
