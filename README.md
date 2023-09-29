@@ -1,27 +1,50 @@
-# React + TypeScript + Vite
+# React Chat Socket.io
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Una aplicación de chat en tiempo real desarrollada con React, Chakra UI, TypeScript y Socket.io.
 
-Currently, two official plugins are available:
+## Instalación
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clona el repositorio:
 
-## Expanding the ESLint configuration
+2. Navega al directorio del proyecto:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+3. Instala las dependencias:
 
-- Configure the top-level `parserOptions` property like this:
+## Uso
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+1. Inicia la aplicación en modo de desarrollo:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. Abre tu navegador web y visita `http://localhost:3000` para ver la aplicación en funcionamiento.
+
+## Scripts
+
+- `dev`: Inicia la aplicación en modo de desarrollo.
+- `build`: Compila el código TypeScript y crea una versión optimizada para producción.
+- `lint`: Ejecuta el linter para verificar y corregir errores en el código.
+- `preview`: Muestra una vista previa de la aplicación compilada en modo de producción.
+
+## Dependencias
+
+- `@chakra-ui/icons`: Iconos para usar con Chakra UI.
+- `@chakra-ui/react`: Componentes de UI basados en Chakra UI.
+- `@emotion/react`: Biblioteca para estilos en línea y CSS-in-JS.
+- `@emotion/styled`: Herramientas de estilizado para Emotion.
+- `framer-motion`: Biblioteca para animaciones en React.
+- `react`: Biblioteca principal de React.
+- `react-dom`: Renderizador de React para el navegador.
+- `socket.io-client`: Cliente de Socket.io para comunicación en tiempo real.
+
+## Dependencias de desarrollo
+
+- `@types/react`: Tipos TypeScript para React.
+- `@types/react-dom`: Tipos TypeScript para react-dom.
+- `@typescript-eslint/eslint-plugin`: Plugin ESLint para TypeScript.
+- `@typescript-eslint/parser`: Parser ESLint para TypeScript.
+- `@vitejs/plugin-react`: Plugin Vite para React.
+- `eslint`: Herramienta de linting para JavaScript y TypeScript.
+- `eslint-plugin-react-hooks`: Plugin ESLint para reglas de hooks de React.
+- `eslint-plugin-react-refresh`: Plugin ESLint para reglas de React Refresh.
+- `typescript`: Lenguaje TypeScript.
+- `vite`: Herramienta de construcción y desarrollo rápida para aplicaciones web.
+
+¡Disfruta construyendo tu aplicación de chat en tiempo real con React, Chakra UI, TypeScript y Socket.io!
